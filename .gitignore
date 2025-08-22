@@ -1,1 +1,8 @@
-/# Ignore all files in the output directory
+# Ignore all files in the output directory
+/corpus/*
+/backgrounds/*
+/fonts/*
+/output/*
+
+__pycache__/
+test*
