@@ -30,13 +30,18 @@ Follow these steps to set up the SynthScript environment.
 ### **1\. Project Setup**
 
 **Clone the repository:**  
+
+```
 git clone https://your-repository-url/SynthScript.git \--depth=1  
 cd SynthScript
+```
 
 *Use Python virtual environment (recommended)*  
 
 **Install Python packages:**  
-python \-m pip install \-r requirements.txt
+```
+pip install -r requirements.txt
+```
 
 ### **2\. Prepare Assets**
 
@@ -53,7 +58,7 @@ Before running the script, you must populate the asset folders:
 1. **Edit config.yaml**: Open the configuration file and adjust the parameters to fit your desired dataset specifications.  
 2. **Run the Generator**: Execute the main script from your terminal.
 
-python main.py
+`python main.py`
 
 The script will ask you to confirm the number of images to generate, and wait for your final confirmation before starting the process.
 
@@ -74,12 +79,15 @@ All pipeline parameters are controlled via config.yaml.
 ## **Output Structure**
 
 All generated files will be placed in the folder specified by output\_dir in your config.  
+
+```
 output/  
 ├── images/  
 │   ├── image\_00001.png  
 │   ├── image\_00002.png  
 │   └── ...  
 └── labels.csv
+```
 
 #### **labels.csv File**
 
