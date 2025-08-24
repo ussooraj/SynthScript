@@ -1,20 +1,20 @@
-# ---------------------------------------------------
-# CONFIGURATION FOR SYNTHETIC OCR DATA GENERATOR
-# ---------------------------------------------------
+# -----------------------------------------------#
+# CONFIGURATION FOR SYNTHETIC OCR DATA GENERATOR #
+# -----------------------------------------------#
 
-# 1. PATHS
+# PATHS
 paths:
   corpus_dir: './corpus/'
   fonts_dir: './fonts/'
   backgrounds_dir: './backgrounds/'
   output_dir: './output/'
 
-# 2. DATASET SETTINGS
+# DATASET SETTINGS
 dataset:
-  num_images: 10
+  num_images: 100
   word_count_range: [1, 1]
 
-# 3. TEXT RENDERING
+# TEXT RENDERING
 text:
   font_size_range: [28, 42]
   padding:
@@ -22,8 +22,11 @@ text:
     right: 20
     bottom: 20
     left: 20
+  color:
+    enabled: true
+    rgb_range: [0, 100] # each channel range (0 - 255)
 
-# 4. AUGMENTATIONS
+# AUGMENTATIONS
 augmentations:
   warp:
     enabled: true
@@ -33,8 +36,12 @@ augmentations:
     angle_range: [-10, 10]
   blur:
     enabled: true
-    kernel_size_range: [1, 3]
+    kernel_size_range: [1, 3] # must be odd integers
   brightness_contrast:
     enabled: true
     brightness_range: [-0.3, 0.3]
     contrast_range: [0.7, 1.3]
+  noise:
+    enabled: false
+    type: 's&p' # salt-and-pepper
+    amount_range: [0.01, 0.05]  # fraction of pixels to alter
