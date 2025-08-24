@@ -1,4 +1,4 @@
-# **SynthScript: Synthetic OCR Data Generator**
+# **Synthetic OCR Data Generator**
 
 **SynthScript** is a comprehensive, command-line tool designed to automate the creation of high-quality, synthetic datasets for training Optical Character Recognition (OCR) models. It transforms raw text from a corpus into a diverse, augmented, and ready-to-use dataset, significantly reducing the need for manual data collection and annotation.
 

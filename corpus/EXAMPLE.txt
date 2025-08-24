@@ -1,9 +1,0 @@
-The quick brown fox jumps over the lazy dog. This sentence is famous because it contains all of the letters of the English alphabet. The year 1984, written by George Orwell, is a classic dystopian novel. Its themes of surveillance and government control are still relevant today, perhaps even more so in the 21st century.
-
-Chapter 1: The Journey Begins
-
-It was a bright, cold day in April, and the clocks were striking thirteen. Winston Smith, his chin nuzzled into his breast in an effort to escape the vile wind, slipped quickly through the glass doors of Victory Mansions, though not quickly enough to prevent a swirl of gritty dust from entering along with him. The hallway smelt of boiled cabbage and old rag mats. At one end of it a coloured poster, too large for indoor display, had been tacked to the wall.
-
-Here are some numbers and symbols for testing: 0123456789. And some punctuation: !@#$%^&*()_+-=[]{};':",./<>?
-
-The final test will be to see if the model can handle a mix of everything. For example, an item might cost $1,234.56 plus 8% tax. The order ID is #A4B-7C-9D8E. Please confirm by 2025-08-24.
