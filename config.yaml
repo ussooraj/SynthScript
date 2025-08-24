@@ -12,11 +12,11 @@ paths:
 # DATASET SETTINGS
 dataset:
   num_images: 100
-  word_count_range: [1, 1]
+  word_count_range: [1, 5]
 
 # TEXT RENDERING
 text:
-  font_size_range: [28, 42]
+  font_size_range: [38, 42]
   padding:
     top: 20
     right: 20
@@ -44,4 +44,4 @@ augmentations:
   noise:
     enabled: false
     type: 's&p' # salt-and-pepper
-    amount_range: [0.01, 0.05]  # fraction of pixels to alter
+    amount_range: [0.01, 0.10]  # fraction of pixels to alter

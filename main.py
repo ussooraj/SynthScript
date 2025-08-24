@@ -21,12 +21,6 @@ if __name__ == "__main__":
     
     print("\nSetup complete. All assets loaded successfully!")
 
-    print("\n" + "="*30)
-    print("CURRENT CONFIGURATION")
-    print("="*50)
-    pprint.pprint(config)
-    print("="*30 + "\n")
-
     default_num = config['dataset']['num_images']
     try:
         user_input = input(f"Enter number of images to generate [{default_num}]: ")
